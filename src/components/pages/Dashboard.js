@@ -10,12 +10,15 @@ import { Stylesheet } from "../../styles/Stylesheet";
 export default function Dashboard() {
   return (
     <View style={Stylesheet.Container}>
+      {/* ONETXTCOMPONENT POSSUI CHILDREN EM SEUS PARAMETROS POR ISSO ELE FECHA O "ONEBTNCOMPONENT" */}
       <OneTxtComponent>
         <OneBtnComponent />
       </OneTxtComponent>
+      {/* SECONDTXTCOMPONENT POSSUI CHILDREN EM SEUS PARAMETROS POR ISSO ELE FECHA O "SECONDBTNCOMPONENT" */}
       <SecondTxtComponent>
         <SecondBtnComponent />
       </SecondTxtComponent>
+      {/* THREETXTCOMPONENT POSSUI CHILDREN EM SEUS PARAMETROS POR ISSO ELE FECHA O "THREEBTNCOMPONENT" */}
       <ThreeTxtComponent>
         <ThreeBtnComponent />
       </ThreeTxtComponent>
